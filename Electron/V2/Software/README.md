@@ -1,0 +1,1 @@
+When using the build.particle.io platform you will need to manually add the HTU21D and PowerShield libraries (and remove the duplicated #includes at the head of the file.
