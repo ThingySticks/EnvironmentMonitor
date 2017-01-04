@@ -1,28 +1,28 @@
 {
-'Version':'2',
-'Product':'"Environment Monitor',
-parts: [
+"version":"2",
+"product":"Environment Monitor",
+"parts": [
 
-{'name':'C1', 'value':'1uF', case: '0805', 'FarnellPart':['2320853','2310412'], 'price':0.0095},
-{'name':'C4', 'value':'1uF', case: '0805', 'FarnellPart':['2320853','2310412'], 'price':0.0095},
+{"name":"C1", "value":"1uF", "case": "0805", "farnellPart":["2320853","2310412"], "price":0.0095},
+{"name":"C4", "value":"1uF", "case": "0805", "farnellPart":["2320853","2310412"], "price":0.0095},
 
-{'name':'R1', 'value':'1k5', case: '1206', 'comment': 'bottom layer - optional', 'FarnellPart':['9335951','2129658'], 'price':0.0013},
-{'name':'R1', 'value':'1k5', case: '0805', 'comment': 'bottom layer - optional', 'FarnellPart':['9332600','2129125'], 'price':0.0008},
-{'name':'D2', 'value':'reverse LED - Green.', 'comment': 'bottom layer - optional', 'FarnellPart':'2217905', 'price':0.111 },
-{'name':'D2', 'value':'reverse LED - Blue.', 'comment': 'bottom layer - optional', 'FarnellPart':'2217907', 'price':0.23 },
+{"name":"R1", "value":"1k5", "case": "1206", "comment": "bottom layer - optional", "farnellPart":["9335951","2129658"], "price":0.0013},
+{"name":"R1", "value":"1k5", "case": "0805", "comment": "bottom layer - optional", "farnellPart":["9332600","2129125"], "price":0.0008},
+{"name":"D2", "value":"reverse LED - Green.", "comment": "bottom layer - optional", "farnellPart":"2217905", "price":0.111 },
+{"name":"D2", "value":"reverse LED - Blue.", "comment": "bottom layer - optional", "farnellPart":"2217907", "price":0.23 },
 
-{'name':'D1', 'value':'MBRA140T3G', 'FarnellPart':'9555986', 'price': 0.106},
+{"name":"D1", "value":"MBRA140T3G", "farnellPart":"9555986", "price": 0.106},
 
-{'name':'R3', 'value':'4k7', case: '0805', 'FarnellPart':['9333266','2129167'], 'MfgPartNo':'MC01W080514k7', 'price':0.0009},
-{'name':'R4', 'value':'4k7', case: '0805', 'FarnellPart':['9333266','2129167'], 'MfgPartNo':'MC01W080514k7', 'price':0.0009},
-{'name':'R6', 'value':'10k', case: '0805', 'FarnellPart':['9332391','2129195'], 'MfgPartNo':'MC01W0805110k', 'price':0.0009},
+{"name":"R3", "value":"4k7", "case": "0805", "farnellPart":["9333266","2129167"], "mfgPartNo":"MC01W080514k7", "price":0.0009},
+{"name":"R4", "value":"4k7", "case": "0805", "farnellPart":["9333266","2129167"], "mfgPartNo":"MC01W080514k7", "price":0.0009},
+{"name":"R6", "value":"10k", "case": "0805", "farnellPart":["9332391","2129195"], "mfgPartNo":"MC01W0805110k", "price":0.0009},
 
-{'name':'JP1', 'value':'USB connector', 'Price': '', 'FarnellPart':'2476092', 'MfgPartNo':'MC000991', 'price':0.35 },
-{'name':'U1', 'value':'HTU21D - Humidity Sensor', 'FarnellPart':'2515622', 'price':2.50},
-{'name':'U2', 'value':'BMP180 - Pressure Sensor', 'MouserPart':'2515622', 'price':2.63, 'comment':'End of life'},
-{'name':'U3', 'value':'Photon', 'comment':'User supplied. Photon, Electron or Bluz'},
-{'name':'U3a', 'value':'12 Way Header',  'FarnellPart':'1593465' 'comment':'User supplied. Photon, Electron or Bluz', 'quantity':'2', 'price':0.0911'},
-{'name':'U3a', 'value':'18 Way Header', 'FarnellPart':'1801220', 'comment':'Optional, use for Electron', 'quantity':'2', 'price':1.11},
-{'name':'U4', 'value':'TEMT6000', 'FarnellPart':'1497671', 'price':0.68},
+{"name":"JP1", "value":"USB connector", "Price": "", "farnellPart":"2476092", "mfgPartNo":"MC000991", "price":0.35 },
+{"name":"U1", "value":"HTU21D - Humidity Sensor", "farnellPart":"2515622", "price":2.50},
+{"name":"U2", "value":"BMP180 - Pressure Sensor", "MouserPart":"2515622", "price":2.63, "comment":"End of life"},
+{"name":"U3", "value":"Photon", "comment":"User supplied. Photon, Electron or Bluz"},
+{"name":"U3a", "value":"12 Way Header",  "farnellPart":"1593465", "comment":"User supplied. Photon, Electron or Bluz", "quantity":"2", "price":0.0911},
+{"name":"U3a", "value":"18 Way Header", "farnellPart":"1801220", "comment":"Optional, use for Electron", "quantity":"2", "price":1.11},
+{"name":"U4", "value":"TEMT6000", "farnellPart":"1497671", "price":0.68}
 
 ]}
