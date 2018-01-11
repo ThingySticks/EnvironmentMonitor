@@ -8280,9 +8280,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <plain>
 <text x="170.18" y="170.18" size="1.778" layer="97">I2C Pullup</text>
 <wire x1="2.54" y1="182.88" x2="2.54" y2="109.22" width="0.1524" layer="97"/>
-<wire x1="2.54" y1="109.22" x2="208.28" y2="109.22" width="0.1524" layer="97"/>
-<wire x1="208.28" y1="109.22" x2="208.28" y2="182.88" width="0.1524" layer="97"/>
-<wire x1="208.28" y1="182.88" x2="2.54" y2="182.88" width="0.1524" layer="97"/>
+<wire x1="2.54" y1="109.22" x2="195.58" y2="109.22" width="0.1524" layer="97"/>
+<wire x1="195.58" y1="109.22" x2="195.58" y2="182.88" width="0.1524" layer="97"/>
+<wire x1="195.58" y1="182.88" x2="2.54" y2="182.88" width="0.1524" layer="97"/>
 <wire x1="68.58" y1="106.68" x2="157.48" y2="106.68" width="0.1524" layer="97"/>
 <wire x1="157.48" y1="106.68" x2="157.48" y2="43.18" width="0.1524" layer="97"/>
 <wire x1="157.48" y1="43.18" x2="68.58" y2="43.18" width="0.1524" layer="97"/>
@@ -8294,8 +8294,13 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="160.02" y1="106.68" x2="160.02" y2="43.18" width="0.1524" layer="97"/>
 <wire x1="160.02" y1="43.18" x2="243.84" y2="43.18" width="0.1524" layer="97"/>
 <wire x1="243.84" y1="43.18" x2="243.84" y2="106.68" width="0.1524" layer="97"/>
-<wire x1="243.84" y1="109.22" x2="243.84" y2="106.68" width="0.1524" layer="97"/>
 <wire x1="243.84" y1="106.68" x2="160.02" y2="106.68" width="0.1524" layer="97"/>
+<wire x1="198.12" y1="182.88" x2="243.84" y2="182.88" width="0.1524" layer="97"/>
+<wire x1="243.84" y1="182.88" x2="243.84" y2="154.94" width="0.1524" layer="97"/>
+<wire x1="243.84" y1="154.94" x2="198.12" y2="154.94" width="0.1524" layer="97"/>
+<wire x1="198.12" y1="154.94" x2="198.12" y2="182.88" width="0.1524" layer="97"/>
+<text x="238.76" y="7.62" size="1.778" layer="97">V3.0</text>
+<text x="166.116" y="11.684" size="1.778" layer="97">Stephen Harrison</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="114.3" y="73.66"/>
@@ -8309,12 +8314,12 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="R3" gate="G$1" x="172.72" y="157.48" rot="R180"/>
 <instance part="R4" gate="G$1" x="172.72" y="149.86" rot="R180"/>
 <instance part="SUPPLY10" gate="G$1" x="162.56" y="160.02"/>
-<instance part="C4" gate="G$1" x="223.52" y="154.94" rot="R180"/>
-<instance part="H1" gate="G$1" x="124.46" y="30.48"/>
-<instance part="H2" gate="G$1" x="124.46" y="22.86"/>
+<instance part="C4" gate="G$1" x="50.8" y="162.56" rot="R180"/>
+<instance part="H1" gate="G$1" x="205.74" y="175.26"/>
+<instance part="H2" gate="G$1" x="205.74" y="165.1"/>
 <instance part="LOGO1" gate="G$1" x="223.52" y="93.98"/>
-<instance part="SUPPLY14" gate="G$1" x="223.52" y="160.02"/>
-<instance part="GND13" gate="1" x="223.52" y="144.78"/>
+<instance part="SUPPLY14" gate="G$1" x="50.8" y="167.64"/>
+<instance part="GND13" gate="1" x="50.8" y="152.4"/>
 <instance part="U4" gate="G$1" x="12.7" y="165.1"/>
 <instance part="R6" gate="G$1" x="15.24" y="147.32" rot="R90"/>
 <instance part="SUPPLY5" gate="G$1" x="15.24" y="175.26"/>
@@ -8373,7 +8378,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="223.52" y1="149.86" x2="223.52" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="157.48" x2="50.8" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
@@ -8428,7 +8433,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <segment>
 <pinref part="SUPPLY14" gate="G$1" pin="3.3V"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="223.52" y1="160.02" x2="223.52" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="167.64" x2="50.8" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="C1"/>
