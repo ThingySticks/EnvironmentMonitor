@@ -18,7 +18,8 @@
 {"name":"R6", "value":"10k", "case": "0805", "farnellPart":["9332391","2129195"], "mfgPartNo":"MC01W0805110k", "price":0.0009},
 
 {"name":"JP1", "value":"USB connector", "Price": "", "farnellPart":"2476092", "mfgPartNo":"MC000991", "price":0.35 },
-{"name":"U1", "value":"HTU21D - Humidity Sensor", "farnellPart":"2515622", "price":2.50},
+{"name":"U1", "value":"HTU21D - Humidity Sensor", "farnellPart":"2393536", "price":6.70},
+{"name":"U1a", "value":"HTU21D/HPP845E031R5 - Humidity Sensor", "farnellPart":"2771928", "mfgPartNo":"HPP845E031R5", "price":2.77},
 {"name":"U2", "value":"BMP180 - Pressure Sensor", "MouserPart":"2515622", "price":2.63, "comment":"End of life"},
 {"name":"U3", "value":"Photon", "comment":"User supplied. Photon, Electron or Bluz"},
 {"name":"U3a", "value":"12 Way Header",  "farnellPart":"1593465", "comment":"User supplied. Photon, Electron or Bluz", "quantity":"2", "price":0.0911},
