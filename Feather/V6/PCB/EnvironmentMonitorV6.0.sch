@@ -8921,7 +8921,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
+<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="10k"/>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="IC5" library="ThingySticks" deviceset="FEATHERWING" device="_NODIM" value="FEATHERWING_NODIM"/>
@@ -9172,8 +9172,14 @@ Input</text>
 <instance part="C5" gate="G$1" x="121.92" y="137.16" rot="R180"/>
 <instance part="SUPPLY6" gate="G$1" x="121.92" y="139.7"/>
 <instance part="GND23" gate="1" x="121.92" y="129.54"/>
-<instance part="R9" gate="G$1" x="170.18" y="160.02" rot="R90"/>
-<instance part="R10" gate="G$1" x="175.26" y="160.02" rot="R90"/>
+<instance part="R9" gate="G$1" x="170.18" y="160.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="168.656" y="160.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="166.624" y="165.1" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="R10" gate="G$1" x="175.26" y="160.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="178.816" y="165.1" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="176.784" y="160.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
 <instance part="SUPPLY13" gate="G$1" x="170.18" y="170.18"/>
 <instance part="R11" gate="G$1" x="124.46" y="157.48" rot="R90"/>
 <instance part="SUPPLY19" gate="G$1" x="124.46" y="165.1"/>

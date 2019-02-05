@@ -247,6 +247,7 @@ Reverse</text>
 <hole x="33.96" y="67.92" drill="2.2"/>
 <hole x="0" y="67.92" drill="2.2"/>
 <text x="58.41" y="0.37" size="1.016" layer="26" font="vector" ratio="15" rot="MR180">V6.0</text>
+<text x="8.89" y="36.195" size="1.016" layer="51">. mark on Anode</text>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">
@@ -1166,7 +1167,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="42.6718" y="7.4744" size="0.8128" layer="25" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="41.559" y="4.353" size="0.4064" layer="27"/>
 </element>
-<element name="R5" library="SparkFun-Resistors" package="0805" value=" " x="47.625" y="48.895" smashed="yes" rot="R90">
+<element name="R5" library="SparkFun-Resistors" package="0805" value="10k" x="47.625" y="48.895" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.9646" y="50.7492" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" value=" " x="46.482" y="47.879" size="0.4064" layer="27" rot="R90"/>
 <attribute name="PROD_ID" value=" " x="47.625" y="48.895" size="1.778" layer="27" rot="R90" display="off"/>
