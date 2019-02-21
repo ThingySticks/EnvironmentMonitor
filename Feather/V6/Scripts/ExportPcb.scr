@@ -7,6 +7,12 @@ EXPORT IMAGE S:\github\ThingySticks\EnvironmentMonitor\Feather\V6\Images\PcbTopD
 DISPLAY None
 DISPLAY Bottom Pads Vias Dimension bPlace bOrigins bNames bValues bStop bCream bDocu Drills Holes Milling Document
 EXPORT IMAGE S:\github\ThingySticks\EnvironmentMonitor\Feather\V6\Images\PcbBottomDesign.png 600;
+DISPLAY None
+DISPLAY Dimension tPlace tNames tValues
+EXPORT IMAGE S:\github\ThingySticks\EnvironmentMonitor\Feather\V6\Images\PcbTopSilkAndValues.png 600;
+DISPLAY None
+DISPLAY Dimension bPlace bNames bValues
+EXPORT IMAGE S:\github\ThingySticks\EnvironmentMonitor\Feather\V6\Images\PcbBottomSilkAndValues.png 600;
 DISPLAY ALL
 
 EXPORT PARTLIST S:\github\ThingySticks\EnvironmentMonitor\Feather\V6\parts.txt
