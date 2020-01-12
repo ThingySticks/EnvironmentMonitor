@@ -1,0 +1,73 @@
+Partlist
+
+Exported from EnvironmentMonitorV6.1.brd at 15/02/2019 21:37
+
+EAGLE Version 7.4.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value                          Package                     Library                Position (mm)         Orientation
+
+BT2                                     BATTERY_CR2-HOLDER-NO-HOLES ThingySticks           (15.6464 39.1668)     MR270
+C1       1.0uF                          0805-CAP                    SparkFun-Capacitors    (49.6225 14.2425)     R180
+C2       0.1uF                          0805-CAP                    SparkFun-Capacitors    (49.39 5.4)           R0
+C3       1.0uF                          0805-CAP                    SparkFun-Capacitors    (46.0788 6.2206)      R270
+C4       0.1uF                          0805-CAP                    SparkFun-Capacitors    (42.575 5.75)         R0
+C5       1.0uF                          0805-CAP                    SparkFun-Capacitors    (64.2275 12.3375)     R180
+C6       1.0uF                          0805-CAP                    SparkFun-Capacitors    (29.685 56.6175)      R180
+C7       0.1uF                          0805-CAP                    SparkFun-Capacitors    (30.32 53.76)         R180
+C8       0.1uF                          0805-CAP                    SparkFun-Capacitors    (15.875 62.865)       R270
+C9       0.1uF                          0805-CAP                    SparkFun-Capacitors    (12.065 51.435)       R90
+C10      10uF                           0805-CAP                    SparkFun-Capacitors    (13.335 62.865)       R90
+C11      1.0uF                          0805-CAP                    SparkFun-Capacitors    (21.3 16.93)          R270
+C12      2.2uF                          0805-CAP                    SparkFun-Capacitors    (18.7 17.03)          R270
+C13      10uF                           0805-CAP                    SparkFun-Capacitors    (14.7 19.665)         R0
+C14      0.1uF                          0805-CAP                    SparkFun-Capacitors    (14.7 16.465)         R0
+C15      0.1uF                          0805-CAP                    SparkFun-Capacitors    (53.9496 23.4696)     R270
+C16      10uF                           0805-CAP                    SparkFun-Capacitors    (51.997 23.5188)      R270
+C17      0.1uF                          0805-CAP                    SparkFun-Capacitors    (10.16 60.96)         R180
+C19      68uF                           EIA3528                     SparkFun-Capacitors    (8.5725 19.05)        R90
+D1       IR                             LED-1206                    SparkFun-LED           (0.889 9.3726)        R270
+D2                                      LED-1206-BOTTOM             SparkFun-LED           (43.815 66.04)        R180
+D3       IR                             LED-1206                    SparkFun-LED           (3.77 9.365)          R270
+D4                                      LED-1206                    ThingySticks           (33.9806 34.0044)     R180
+D7       3A/10V/280mV                   SOD-323                     SparkFun-DiscreteSemi  (11.3538 36.9316)     R180
+F1       6V/0.75A                       1206                        SparkFun-Fuses         (36.2712 36.8935)     R180
+IC1      BME680                         BME680                      ThingySticks           (49.885 9.23)         R180
+IC2      TCS3472                        FN-6                        TCS3472                (42.665 9.335)        R180
+IC3      CCS811                         LGA10                       ThingySticks           (60 9.3)              R90
+IC4                                     SPW2430HR5H-B               microbuilder           (13.97 58.42)         R0
+IC5      FEATHERWINGPADS_AND_PLACE_ONLY FEATHERWIND_PADS_AND_PLACE  ThingySticks           (18.415 62.23)        MR180
+J1                                      JST-2-SMD                   ThingySticks           (22.03 34.2225)       MR90
+JP1      Charge Enable                  SMT-JUMPER_2_NC_PASTE_SILK  SparkFun-Jumpers       (11.3538 34.2646)     R180
+JP2      Analog                         JST-4-PH-GROVE              ThingySticks           (26.035 67.945)       MR0
+JP3      Serial                         JST-4-PH-GROVE              ThingySticks           (57.815 67.99)        MR0
+JP6      I2C                            JST-4-PH-GROVE              ThingySticks           (60.325 33.02)        MR0
+Q1       IRFML8244TRPBF                 SOT23-3                     SparkFun-DiscreteSemi  (4.3 4.715)           R0
+Q2       4.3A/20V/54m?                  SOT23-3                     SparkFun-DiscreteSemi  (14.605 23.8125)      R270
+R1       1k5                            0805                        SparkFun-Resistors     (50.295 66.03)        R0
+R2       1K                             0805                        SparkFun-Resistors     (10.0584 63.8556)     R0
+R3       4k7                            0805                        SparkFun-Resistors     (29.7365 20.0624)     R180
+R4       4k7                            0805                        SparkFun-Resistors     (27.7553 17.9034)     R180
+R5       10k                            0805                        SparkFun-Resistors     (47.625 48.895)       R90
+R6       1M                             0805                        SparkFun-Resistors     (0.635 58.42)         R90
+R7       10k                            0805                        SparkFun-Resistors     (8.89 51.435)         R90
+R8       10k                            0805                        SparkFun-Resistors     (57.7342 29.9974)     R180
+R9       10k                            0805                        SparkFun-Resistors     (57.785 46.99)        R90
+R10      10k                            0805                        SparkFun-Resistors     (55.245 48.895)       R90
+R11      4k7                            0805                        SparkFun-Resistors     (56.56 4.22)          R180
+R12      10k                            0805                        SparkFun-Resistors     (5.715 51.435)        R270
+R13      100R                           0805                        SparkFun-Resistors     (10.795 29.21)        R0
+R14      20R                            0805                        SparkFun-Resistors     (21.3 22.1)           R90
+R15      100R                           0805                        SparkFun-Resistors     (0.87 15.065)         R90
+R16      1K                             0805                        SparkFun-Resistors     (39.5478 34.0298)     R0
+R17      100R                           0805                        SparkFun-Resistors     (3.77 15.065)         R90
+R18      10R                            0805                        SparkFun-Resistors     (-0.83 4.595)         R90
+R19      1M                             0805                        SparkFun-Resistors     (4.2648 1.3122)       R0
+R20      10k                            0805                        SparkFun-Resistors     (5.715 47.625)        R270
+R21      10k                            0805                        SparkFun-Resistors     (52.705 45.085)       R90
+R22      10k                            0805                        SparkFun-Resistors     (50.165 45.085)       R90
+R23      1M                             0805                        SparkFun-Resistors     (14.605 29.21)        R180
+U1       GRIDEYE                        GRIDEYE-AMG88               SparkFun-Sensors       (20 9.4126)           R0
+U2       LMV358                         SO08                        SparkFun-IC-Amplifiers (6.35 57.15)          R270
+U3       LIS3DH                         LGA-16-3X3                  SparkFun-Sensors       (58.42 25.4)          R180
