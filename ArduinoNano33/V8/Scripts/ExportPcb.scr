@@ -1,0 +1,18 @@
+DISPLAY ALL
+RATSNEST
+EXPORT IMAGE S:\github\ThingySticks\EnvironmentMonitor\ArduinoNano33\V8\Images\PcbAllLayersDesign.png 600;
+DISPLAY None
+DISPLAY Top Pads Vias Dimension tPlace tOrigins tNames tValues tStop tCream tDocu Drills Holes Milling Document
+EXPORT IMAGE S:\github\ThingySticks\EnvironmentMonitor\ArduinoNano33\V8\Images\PcbTopDesign.png 600;
+DISPLAY None
+DISPLAY Bottom Pads Vias Dimension bPlace bOrigins bNames bValues bStop bCream bDocu Drills Holes Milling Document
+EXPORT IMAGE S:\github\ThingySticks\EnvironmentMonitor\ArduinoNano33\V8\Images\PcbBottomDesign.png 600;
+DISPLAY None
+DISPLAY Dimension tPlace tNames tValues
+EXPORT IMAGE S:\github\ThingySticks\EnvironmentMonitor\ArduinoNano33\V8\Images\PcbTopSilkAndValues.png 600;
+DISPLAY None
+DISPLAY Dimension bPlace bNames bValues
+EXPORT IMAGE S:\github\ThingySticks\EnvironmentMonitor\ArduinoNano33\V8\Images\PcbBottomSilkAndValues.png 600;
+DISPLAY ALL
+
+EXPORT PARTLIST S:\github\ThingySticks\EnvironmentMonitor\ArduinoNano33\V8\parts.txt

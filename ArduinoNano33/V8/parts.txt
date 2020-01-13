@@ -1,0 +1,28 @@
+Partlist
+
+Exported from Environment-ArduinoNano44-Mini-Enclosure-V8.brd at 12/01/2020 23:55
+
+EAGLE Version 7.4.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value                                    Package                    Library            Position (inch)       Orientation
+
+BT2                                               BATTCON_12MM_PTH           ThingySticks       (2.13661417 0.33622047) R180
+BT3                                               BATTCON_12MM_PTH           ThingySticks       (2.13661417 0.99517717) R0
+C1       0.1uF                                    0805                       ThingySticks       (0.425 0.1375)        R270
+C2       1.0uF                                    0805                       ThingySticks       (0.5125 0.1375)       R270
+D1       Red                                      LED-1206                   ThingySticks       (1.0625 1.2625)       R0
+D2       Yellow                                   LED-1206                   ThingySticks       (0.7875 1.2625)       R0
+D3       Green                                    LED-1206                   ThingySticks       (0.5125 1.2625)       R0
+IC1      BME680                                   BME680                     ThingySticks       (0.68897638 0.13061024) R90
+J1                                                JST-2-SMD                  ThingySticks       (2.51968504 0.66929134) R90
+JP1      JUMPER-SMT_2_NC_PASTE_SILK               SMT-JUMPER_2_NC_PASTE_SILK SparkFun-Jumpers   (0.29931102 0.60374016) MR90
+JP2      USB-NEW-MICROB                           USB-MICROB                 Tinamous           (1.3976378 0.11811024) R0
+R1       10k                                      0805                       SparkFun-Resistors (0.85 0.2125)         R90
+R2       4k7                                      0805                       SparkFun-Resistors (1 0.55)              R90
+R3       4k7                                      0805                       SparkFun-Resistors (0.9 0.55)            R90
+R4       1k5                                      0805                       SparkFun-Resistors (0.4875 1.1625)       R0
+R5       1k5                                      0805                       SparkFun-Resistors (0.7625 1.1625)       R0
+R6       1k5                                      0805                       SparkFun-Resistors (0.9625 1.1625)       R180
+U$1      ARDUINO_33_NANOARDUINO_NANO_33_BLE_SENSE ARDUINO_NANO_33            ThingySticks       (0.0492126 0.3269685) R90
