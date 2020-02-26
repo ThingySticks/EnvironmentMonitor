@@ -1,0 +1,14 @@
+Partlist
+
+Exported from Environment-ArduinoNano44-Mini-Enclosure-V10-Bottom.brd at 26/02/2020 16:30
+
+EAGLE Version 7.4.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value                     Package                      Library      Position (mm)         Orientation
+
+U$2                                CR2032-SMD                   ThingySticks (20 59)               MR0
+U$3                                CR2032-SMD                   ThingySticks (51 59)               MR0
+U$10     CR2032-SPLIT-PCB-POSITIVE CR2032-SMD-POSITIVE-TERMINAL ThingySticks (20 61)               MR0
+U$13     CR2032-SPLIT-PCB-POSITIVE CR2032-SMD-POSITIVE-TERMINAL ThingySticks (51 61)               MR0

@@ -1,0 +1,60 @@
+Partlist
+
+Exported from Environment-ArduinoNano44-Mini-Enclosure-V10-Top.brd at 26/02/2020 16:33
+
+EAGLE Version 7.4.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value                                        Package                      Library                        Position (mm)         Orientation
+
+C1       0.1uF                                        0805                         ThingySticks                   (10.795 3.4925)       R270
+C2       1.0uF                                        0805                         ThingySticks                   (13.0175 3.4925)      R270
+D1       Red                                          LED-1206                     ThingySticks                   (66.5 32.5)           R0
+D2       Yellow                                       LED-1206                     ThingySticks                   (5 32.5)              R180
+D3       Green                                        LED-1206                     ThingySticks                   (35.5 32.5)           R0
+D4       Blue                                         LED-1206                     ThingySticks                   (47.5 20)             R270
+D5       Blue                                         LED-1206                     ThingySticks                   (47.5 14)             R90
+D6       Blue                                         LED-1206                     ThingySticks                   (50.5 11)             R0
+D7       Blue                                         LED-1206                     ThingySticks                   (53.5 14)             R90
+D8       Blue                                         LED-1206                     ThingySticks                   (53.5 20)             R90
+D9       Blue                                         LED-1206                     ThingySticks                   (50.5 23)             R0
+D10      Blue                                         LED-1206                     ThingySticks                   (50.5 17)             R180
+D11      Blue                                         LED-1206                     ThingySticks                   (67.8 9.3)            R315
+D13      Blue                                         LED-1206                     ThingySticks                   (60 20)               R90
+D14      Blue                                         LED-1206                     ThingySticks                   (60 14)               R270
+D15      Blue                                         LED-1206                     ThingySticks                   (63 11)               R0
+D16      Blue                                         LED-1206                     ThingySticks                   (66 14)               R90
+D17      Blue                                         LED-1206                     ThingySticks                   (66 20)               R270
+D18      Blue                                         LED-1206                     ThingySticks                   (63 23)               R180
+D19      Blue                                         LED-1206                     ThingySticks                   (63 17)               R0
+D20      Green                                        LED-1206                     ThingySticks                   (50.5 2)              R0
+D21      Green                                        LED-1206                     ThingySticks                   (63 2)                R180
+D22      Blue                                         LED-1206                     ThingySticks                   (57 11.5)             R270
+D23      Green                                        LED-1206                     ThingySticks                   (57 2)                R180
+IC1      BME680                                       BME680                       ThingySticks                   (17.5 3.3175)         R90
+J1                                                    1X01                         SparkFun-Connectors            (36.9 19.8)           R270
+J3                                                    1X01                         SparkFun-Connectors            (7.6 17)              R0
+J4       QUIC                                         JST04_1MM_RA                 SparkFun-Connectors-2020-01-17 (24.5 5)              MR0
+J5                                                    USB-C-16P                    SparkFun-Connectors-2020-01-17 (35.5 7.5)            MR0
+J6                                                    1X01                         SparkFun-Connectors            (34.1 19.8)           R270
+Q1       5.8A/30V/35m?                                SOT23-3                      SparkFun-DiscreteSemi          (50.5 7)              R0
+Q2       5.8A/30V/35m?                                SOT23-3                      SparkFun-DiscreteSemi          (59.5 7)              R0
+R1       10k                                          0805                         SparkFun-Resistors             (21.59 5.3975)        R90
+R2       1k5                                          0805                         SparkFun-Resistors             (2 5.5)               R270
+R3       1k5                                          0805                         SparkFun-Resistors             (35 28.5)             R180
+R4       1k5                                          0805                         SparkFun-Resistors             (31 33)               R180
+R5       1k5                                          0805                         SparkFun-Resistors             (10.5 32)             R270
+R6       5k1                                          0805                         SparkFun-Resistors             (33.5 11.5)           MR90
+R7       5k1                                          0805                         SparkFun-Resistors             (36.5 11.5)           MR90
+R9       1k5                                          0805                         SparkFun-Resistors             (54.5 9)              R90
+R10      1k5                                          0805                         SparkFun-Resistors             (47 9)                R90
+R11      1k5                                          0805                         SparkFun-Resistors             (2 29)                R90
+R12      1k5                                          0805                         SparkFun-Resistors             (28 29)               R270
+R13      1k5                                          0805                         SparkFun-Resistors             (30.5 29)             R270
+R14      1k5                                          0805                         SparkFun-Resistors             (62 32.5)             R180
+S1       MOMENTARY-SWITCH-SPST-SMD-5.2MM              TACTILE_SWITCH_SMD_5.2MM     ThingySticks                   (35.5 4)              R90
+U$1      ARDUINO_33_NANOARDUINO_NANO_33_BLE_SENSE_SMD ARDUINO_NANO_33_SMD          ThingySticks                   (1.25 8.305)          R90
+U$6                                                   CR2032-SMD                   ThingySticks                   (20 24)               MR0
+U$8      CR2032-SPLIT-PCBCR2032-NEGATIVE              CR2032-SMD-NEGATIVE-TERMINAL ThingySticks                   (20 24)               MR0
+U$9      CR2032-SPLIT-PCBCR2032-NEGATIVE              CR2032-SMD-NEGATIVE-TERMINAL ThingySticks                   (51 24)               MR0
