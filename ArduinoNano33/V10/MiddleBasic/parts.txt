@@ -1,6 +1,6 @@
 Partlist
 
-Exported from Environment-ArduinoNano44-Mini-Enclosure-V10-Middles.brd at 26/02/2020 16:31
+Exported from Environment-ArduinoNano33-V10.1-MiddleBasic.brd at 27/02/2020 23:39
 
 EAGLE Version 7.4.0 Copyright (c) 1988-2015 CadSoft
 
@@ -8,5 +8,4 @@ Assembly variant:
 
 Part     Value          Package  Library             Position (mm)         Orientation
 
-J7                      1X01     SparkFun-Connectors (34.1 93.8)           R0
-J8                      1X01     SparkFun-Connectors (36.9 93.8)           R0
+J2                      1X01     SparkFun-Connectors (7.6 17)              R0

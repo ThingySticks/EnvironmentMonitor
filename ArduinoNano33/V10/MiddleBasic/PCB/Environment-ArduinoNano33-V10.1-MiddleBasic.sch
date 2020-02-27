@@ -163,65 +163,240 @@
 <libraries>
 <library name="ThingySticks">
 <packages>
-<package name="CR2032-SMD-MIDDLE-OUTLINE">
-<wire x1="-10.176" y1="-2.24" x2="-10.16" y2="-2.24" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-2.24" x2="10.176" y2="-2.24" width="0.127" layer="21"/>
-<wire x1="10.176" y1="2.84" x2="10.16" y2="-0.97" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-0.97" x2="10.16" y2="9.952" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="9.952" x2="-10.16" y2="-0.97" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="-0.97" x2="-10.176" y2="2.84" width="0.127" layer="21"/>
-<text x="-2.756" y="-4.578" size="1.016" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="-2.718" y="-6.03" size="1.016" layer="27" font="vector" ratio="15">&gt;VALUE</text>
-<circle x="0" y="0" radius="10" width="0.254" layer="21"/>
-<polygon width="0.127" layer="39">
-<vertex x="-10.2" y="0.1"/>
-<vertex x="-10.2" y="10.3"/>
-<vertex x="10.2" y="10.3"/>
-<vertex x="10.2" y="0"/>
-<vertex x="10.2" y="-0.2" curve="-90"/>
-<vertex x="0" y="-10.4" curve="-91.660638"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="-10.2" y="10.3"/>
-<vertex x="10.2" y="10.3"/>
-<vertex x="10.2" y="0"/>
-<vertex x="10.2" y="-0.2" curve="-90"/>
-<vertex x="0" y="-10.4" curve="-91.112511"/>
-<vertex x="-10.2" y="0" curve="2.224988"/>
-</polygon>
-<text x="-3.81" y="3.81" size="1.27" layer="27" ratio="15">Battery</text>
-<polygon width="0.127" layer="40">
-<vertex x="-10.2" y="0.1"/>
-<vertex x="-10.2" y="10.3"/>
-<vertex x="10.2" y="10.3"/>
-<vertex x="10.2" y="-0.2" curve="-90"/>
-<vertex x="0" y="-10.4" curve="-91.660638"/>
-</polygon>
-<polygon width="0.127" layer="42">
-<vertex x="-10.2" y="10.3"/>
-<vertex x="10.2" y="10.3"/>
-<vertex x="10.2" y="-0.2" curve="-90"/>
-<vertex x="0" y="-10.4" curve="-91.112511"/>
-<vertex x="-10.2" y="0" curve="2.224988"/>
-</polygon>
-<text x="3.175" y="1.905" size="1.27" layer="28" ratio="15" rot="MR0">Battery</text>
+<package name="PERSONAL_ENVIRONMENT_SENSOR_TOP">
+<wire x1="3" y1="0" x2="68" y2="0" width="0" layer="49"/>
+<wire x1="0" y1="31" x2="0" y2="3" width="0" layer="49"/>
+<wire x1="71" y1="3" x2="71" y2="31" width="0" layer="49"/>
+<wire x1="68" y1="34" x2="56" y2="34" width="0" layer="49"/>
+<wire x1="45.5" y1="34" x2="25.5" y2="34" width="0" layer="49"/>
+<wire x1="14.5" y1="34" x2="3" y2="34" width="0" layer="49"/>
+<wire x1="0" y1="31" x2="3" y2="34" width="0" layer="49" curve="-90"/>
+<wire x1="68" y1="34" x2="71" y2="31" width="0" layer="49" curve="-90"/>
+<wire x1="71" y1="3" x2="68" y2="0" width="0" layer="49" curve="-90"/>
+<wire x1="3" y1="0" x2="0" y2="3" width="0" layer="49" curve="-90"/>
+<wire x1="14.5" y1="34" x2="23" y2="31.5" width="0" layer="49" curve="86.181701"/>
+<wire x1="23" y1="31.5" x2="25.5" y2="34" width="0" layer="49" curve="16.434013"/>
+<wire x1="45.5" y1="34" x2="54.5" y2="32" width="0" layer="49" curve="86.181701"/>
+<wire x1="54.5" y1="32" x2="56" y2="34" width="0" layer="49" curve="16.434013"/>
+<circle x="6.5" y="5.5" radius="1.9" width="0.127" layer="49"/>
+<circle x="6.5" y="5.5" radius="1.4" width="0.127" layer="49"/>
+<circle x="64.5" y="28.5" radius="1.4" width="0.127" layer="49"/>
+<circle x="64.5" y="28.5" radius="1.9" width="0.127" layer="49"/>
+<circle x="6.5" y="28.5" radius="1.1" width="0.127" layer="49"/>
+<circle x="6.5" y="28.5" radius="1.6" width="0.127" layer="49"/>
+<circle x="64.5" y="5.5" radius="1.1" width="0.127" layer="49"/>
+<circle x="64.5" y="5.5" radius="1.6" width="0.127" layer="49"/>
+<text x="5" y="1.5" size="1.27" layer="49">Top</text>
+<text x="33.5" y="17.5" size="1.27" layer="49">D8</text>
+<text x="36" y="17.5" size="1.27" layer="49">D7</text>
+<text x="6.1" y="14.6" size="1.27" layer="49">D11</text>
+<text x="1" y="4.5" size="1.27" layer="49">3v3</text>
+<text x="66.5" y="26" size="1.27" layer="49">GND</text>
+<text x="29.21" y="10.16" size="2.1844" layer="49">Top PCB</text>
+<circle x="3.3" y="3.3" radius="0.58309375" width="0.127" layer="49"/>
+<circle x="3.3" y="3.3" radius="0.806225" width="0.127" layer="49"/>
+<circle x="68.5" y="28.5" radius="0.58309375" width="0.127" layer="49"/>
+<circle x="68.5" y="28.5" radius="0.781021875" width="0.127" layer="49"/>
+<circle x="34.1" y="19.8" radius="0.565684375" width="0.127" layer="49"/>
+<circle x="36.9" y="19.8" radius="0.565684375" width="0.127" layer="49"/>
+<circle x="36.9" y="19.8" radius="0.781021875" width="0.127" layer="49"/>
+<circle x="34.1" y="19.8" radius="0.806225" width="0.127" layer="49"/>
+<circle x="7.6" y="17" radius="0.58309375" width="0.127" layer="49"/>
+<circle x="7.6" y="17" radius="0.806225" width="0.127" layer="49"/>
+<text x="33.5" y="21.2" size="1.27" layer="49">NFC</text>
+</package>
+<package name="PERSONAL_ENVIRONMENT_SENSOR_BOTTOM">
+<wire x1="3" y1="0" x2="27" y2="0" width="0" layer="49"/>
+<wire x1="44" y1="0" x2="68" y2="0" width="0" layer="49"/>
+<wire x1="0" y1="31" x2="0" y2="3" width="0" layer="49"/>
+<wire x1="71" y1="3" x2="71" y2="31" width="0" layer="49"/>
+<wire x1="44" y1="34" x2="28.5" y2="34" width="0" layer="49"/>
+<wire x1="0" y1="31" x2="3" y2="34" width="0" layer="49" curve="-90"/>
+<wire x1="68" y1="34" x2="71" y2="31" width="0" layer="49" curve="-90"/>
+<wire x1="71" y1="3" x2="68" y2="0" width="0" layer="49" curve="-90"/>
+<wire x1="3" y1="0" x2="0" y2="3" width="0" layer="49" curve="-90"/>
+<wire x1="68" y1="34" x2="57.5" y2="34" width="0" layer="49"/>
+<wire x1="29" y1="2" x2="29" y2="8.5" width="0" layer="49"/>
+<wire x1="42" y1="2" x2="42" y2="8.5" width="0" layer="49"/>
+<wire x1="42" y1="8.5" x2="40" y2="11" width="0" layer="49"/>
+<wire x1="31" y1="11" x2="29" y2="8.5" width="0" layer="49"/>
+<wire x1="27" y1="0" x2="29" y2="2" width="0" layer="49" curve="90"/>
+<wire x1="42" y1="2" x2="44" y2="0" width="0" layer="49" curve="90"/>
+<wire x1="31" y1="15" x2="31" y2="11" width="0" layer="49"/>
+<wire x1="40" y1="15" x2="40" y2="11" width="0" layer="49"/>
+<wire x1="31" y1="15" x2="33" y2="17" width="0" layer="49" curve="-90"/>
+<wire x1="33" y1="17" x2="38" y2="17" width="0" layer="49"/>
+<wire x1="38" y1="17" x2="40" y2="15" width="0" layer="49" curve="-90"/>
+<wire x1="11.5" y1="34" x2="12.5" y2="33" width="0" layer="49" curve="-90"/>
+<wire x1="12.5" y1="33" x2="12.5" y2="30" width="0" layer="49"/>
+<wire x1="12.5" y1="30" x2="13" y2="29.5" width="0" layer="49" curve="90"/>
+<wire x1="13" y1="29.5" x2="27" y2="29.5" width="0" layer="49"/>
+<wire x1="27" y1="29.5" x2="27.5" y2="30" width="0" layer="49" curve="90"/>
+<wire x1="27.5" y1="30" x2="27.5" y2="33" width="0" layer="49"/>
+<wire x1="27.5" y1="33" x2="28.5" y2="34" width="0" layer="49" curve="-90"/>
+<wire x1="44" y1="34" x2="45" y2="33" width="0" layer="49" curve="-90"/>
+<wire x1="45" y1="33" x2="45" y2="32" width="0" layer="49"/>
+<wire x1="45" y1="32" x2="51" y2="26.5" width="0" layer="49" curve="90"/>
+<wire x1="51" y1="26.5" x2="56.5" y2="32" width="0" layer="49" curve="94.979095"/>
+<wire x1="56.5" y1="32" x2="56.5" y2="33" width="0" layer="49"/>
+<wire x1="56.5" y1="33" x2="57.5" y2="34" width="0" layer="49" curve="-90"/>
+<wire x1="3" y1="34" x2="11.5" y2="34" width="0" layer="49"/>
+<circle x="6.5" y="5.5" radius="1.4" width="0.127" layer="49"/>
+<circle x="6.5" y="5.5" radius="1.9" width="0.127" layer="49"/>
+<circle x="6.5" y="28.5" radius="1.1" width="0.127" layer="49"/>
+<circle x="6.5" y="28.5" radius="1.6" width="0.127" layer="49"/>
+<circle x="34.1" y="19.8" radius="0.94868125" width="0.127" layer="49"/>
+<circle x="36.9" y="19.8" radius="0.8544" width="0.127" layer="49"/>
+<circle x="64.5" y="28.5" radius="1.4" width="0.127" layer="49"/>
+<circle x="64.5" y="28.5" radius="1.9" width="0.127" layer="49"/>
+<circle x="64.5" y="5.5" radius="1.1" width="0.127" layer="49"/>
+<circle x="64.5" y="5.5" radius="1.6" width="0.127" layer="49"/>
+<text x="7.62" y="15.24" size="2.1844" layer="49">Bottom PCB</text>
+<circle x="3.3" y="3.3" radius="0.565684375" width="0.127" layer="49"/>
+<circle x="3.3" y="3.3" radius="0.806225" width="0.127" layer="49"/>
+<circle x="68.5" y="28.5" radius="0.565684375" width="0.127" layer="49"/>
+<circle x="68.5" y="28.5" radius="0.781021875" width="0.127" layer="49"/>
+</package>
+<package name="PERSONAL_ENVIRONMENT_SENSOR_MIDDLE_KEYRING">
+<wire x1="0" y1="31" x2="0" y2="3" width="0" layer="49"/>
+<wire x1="71" y1="3" x2="71" y2="10.5" width="0" layer="49"/>
+<wire x1="71" y1="23.5" x2="71" y2="31" width="0" layer="49"/>
+<wire x1="37.5" y1="34" x2="33.5" y2="34" width="0" layer="49"/>
+<wire x1="0" y1="31" x2="3" y2="34" width="0" layer="49" curve="-90"/>
+<wire x1="68" y1="34" x2="71" y2="31" width="0" layer="49" curve="-90"/>
+<wire x1="71" y1="3" x2="68" y2="0" width="0" layer="49" curve="-90"/>
+<wire x1="3.6" y1="0" x2="0" y2="3" width="0" layer="49" curve="-90"/>
+<text x="28.8" y="12.7" size="2.54" layer="49" rot="R180">Middle PCB</text>
+<wire x1="9.5" y1="24" x2="20" y2="14" width="0" layer="49" curve="90"/>
+<wire x1="20" y1="14" x2="30.5" y2="24" width="0" layer="49" curve="90"/>
+<wire x1="30.5" y1="24" x2="30.5" y2="31" width="0" layer="49"/>
+<wire x1="30.5" y1="31" x2="33.5" y2="34" width="0" layer="49" curve="-90"/>
+<wire x1="9.5" y1="24" x2="9.5" y2="31" width="0" layer="49"/>
+<wire x1="9.5" y1="31" x2="6.5" y2="34" width="0" layer="49" curve="90"/>
+<wire x1="40.5" y1="24" x2="51" y2="14" width="0" layer="49" curve="90"/>
+<wire x1="51" y1="14" x2="61.5" y2="24" width="0" layer="49" curve="90"/>
+<wire x1="61.5" y1="24" x2="61.5" y2="31" width="0" layer="49"/>
+<wire x1="61.5" y1="31" x2="65.5" y2="34" width="0" layer="49" curve="-90"/>
+<wire x1="40.5" y1="24" x2="40.5" y2="31" width="0" layer="49"/>
+<wire x1="40.5" y1="31" x2="37.5" y2="34" width="0" layer="49" curve="90"/>
+<wire x1="3.6" y1="0" x2="18" y2="0" width="0" layer="49"/>
+<wire x1="20" y1="2" x2="20" y2="5.5" width="0" layer="49"/>
+<wire x1="20" y1="5.5" x2="23" y2="8.5" width="0" layer="49" curve="-90"/>
+<wire x1="23" y1="8.5" x2="29" y2="8.5" width="0" layer="49"/>
+<wire x1="42.1" y1="2" x2="42" y2="8.5" width="0" layer="49"/>
+<wire x1="42" y1="8.5" x2="40" y2="11" width="0" layer="49"/>
+<wire x1="31" y1="11" x2="29" y2="8.5" width="0" layer="49"/>
+<wire x1="18" y1="0" x2="20" y2="2" width="0" layer="49" curve="90"/>
+<wire x1="42.1" y1="2" x2="44.1" y2="0" width="0" layer="49" curve="90"/>
+<wire x1="44.1" y1="0" x2="68" y2="0" width="0" layer="49"/>
+<wire x1="31" y1="11" x2="31" y2="15" width="0" layer="49"/>
+<wire x1="40" y1="15" x2="40" y2="11" width="0" layer="49"/>
+<wire x1="31" y1="15" x2="33" y2="17" width="0" layer="49" curve="-90"/>
+<wire x1="33" y1="17" x2="38" y2="17" width="0" layer="49"/>
+<wire x1="38" y1="17" x2="40" y2="15" width="0" layer="49" curve="-90"/>
+<wire x1="73" y1="12.5" x2="80.5" y2="12.5" width="0" layer="49"/>
+<wire x1="80.5" y1="12.5" x2="82.5" y2="14.5" width="0" layer="49" curve="90"/>
+<wire x1="82.5" y1="14.5" x2="82.5" y2="19.5" width="0" layer="49"/>
+<wire x1="82.5" y1="19.5" x2="80.5" y2="21.5" width="0" layer="49" curve="90"/>
+<wire x1="80.5" y1="21.5" x2="73" y2="21.5" width="0" layer="49"/>
+<wire x1="73" y1="12.5" x2="71" y2="10.5" width="0" layer="49" curve="90"/>
+<wire x1="71" y1="23.5" x2="73" y2="21.5" width="0" layer="49" curve="90"/>
+<wire x1="65.5" y1="34" x2="68" y2="34" width="0" layer="49"/>
+<wire x1="3" y1="34" x2="6.5" y2="34" width="0" layer="49"/>
+<circle x="6.5" y="5.5" radius="1.47648125" width="0.254" layer="49"/>
+<circle x="6.5" y="5.5" radius="2.059125" width="0.254" layer="49"/>
+<circle x="3.3" y="3.3" radius="0.640309375" width="0.254" layer="49"/>
+<circle x="7.6" y="17" radius="0.565684375" width="0.254" layer="49"/>
+<circle x="34.1" y="19.8" radius="0.640309375" width="0.254" layer="49"/>
+<circle x="36.9" y="19.8" radius="0.640309375" width="0.254" layer="49"/>
+<circle x="6.5" y="28.5" radius="1.208303125" width="0.254" layer="49"/>
+<circle x="6.5" y="28.5" radius="1.7" width="0.254" layer="49"/>
+<circle x="64.5" y="28.5" radius="1.52643125" width="0.254" layer="49"/>
+<circle x="64.5" y="28.5" radius="2" width="0.254" layer="49"/>
+<circle x="68.5" y="28.5" radius="0.640309375" width="0.254" layer="49"/>
+<circle x="79" y="17" radius="1.7204625" width="0.254" layer="49"/>
+<circle x="79" y="17" radius="2.19316875" width="0.254" layer="49"/>
+<circle x="64.5" y="5.5" radius="1.204159375" width="0.254" layer="49"/>
+<circle x="64.5" y="5.5" radius="1.7204625" width="0.254" layer="49"/>
+</package>
+<package name="PERSONAL_ENVIRONMENT_SENSOR_BOTTOM_TEMPLATE">
+<wire x1="3" y1="0" x2="68" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="31" x2="0" y2="3" width="0" layer="20"/>
+<wire x1="71" y1="3" x2="71" y2="31" width="0" layer="20"/>
+<wire x1="44.5" y1="34" x2="26.5" y2="34" width="0" layer="20"/>
+<wire x1="0" y1="31" x2="3" y2="34" width="0" layer="20" curve="-90"/>
+<wire x1="68" y1="34" x2="71" y2="31" width="0" layer="20" curve="-90"/>
+<wire x1="71" y1="3" x2="68" y2="0" width="0" layer="20" curve="-90"/>
+<wire x1="3" y1="0" x2="0" y2="3" width="0" layer="20" curve="-90"/>
+<wire x1="44.5" y1="34" x2="45.5" y2="33" width="0" layer="20" curve="-90"/>
+<wire x1="45.5" y1="33" x2="45.5" y2="32" width="0" layer="20"/>
+<wire x1="45.5" y1="32" x2="50.5" y2="26.5" width="0" layer="20" curve="90"/>
+<wire x1="50.5" y1="26.5" x2="56.5" y2="32" width="0" layer="20" curve="94.979095"/>
+<wire x1="56.5" y1="32" x2="56.5" y2="33" width="0" layer="20"/>
+<wire x1="56.5" y1="33" x2="57.5" y2="34" width="0" layer="20" curve="-90"/>
+<wire x1="26" y1="0" x2="45" y2="0" width="0" layer="26"/>
+<wire x1="13.5" y1="34" x2="14.5" y2="33" width="0" layer="20" curve="-90"/>
+<wire x1="14.5" y1="33" x2="14.5" y2="32" width="0" layer="20"/>
+<wire x1="14.5" y1="32" x2="19.5" y2="26.5" width="0" layer="20" curve="90"/>
+<wire x1="19.5" y1="26.5" x2="25.5" y2="32" width="0" layer="20" curve="94.979095"/>
+<wire x1="25.5" y1="32" x2="25.5" y2="33" width="0" layer="20"/>
+<wire x1="25.5" y1="33" x2="26.5" y2="34" width="0" layer="20" curve="-90"/>
+<wire x1="-5.5" y1="17" x2="80" y2="17" width="0.254" layer="49"/>
+<dimension x1="0" y1="0" x2="-5" y2="17" x3="-5" y3="8.5" textsize="1.016" textratio="15" layer="47" dtype="vertical"/>
+<circle x="34.1" y="19.8" radius="1" width="0" layer="1"/>
+<circle x="36.9" y="19.8" radius="1" width="0" layer="1"/>
+<text x="32.5" y="21" size="1.016" layer="51" ratio="15">NFC Pads</text>
+<wire x1="3" y1="34" x2="13.5" y2="34" width="0" layer="20"/>
+<text x="62.1" y="20.1" size="3.81" layer="25" ratio="15">UP</text>
+<text x="3.1" y="20.6" size="3.81" layer="25" ratio="15">UP</text>
+<wire x1="68" y1="34" x2="57.5" y2="34" width="0" layer="20"/>
+<smd name="NFC1" x="34.1" y="19.8" dx="2" dy="2" layer="1" roundness="100"/>
+<smd name="NFC2" x="36.9" y="19.8" dx="2" dy="2" layer="1" roundness="100"/>
+<smd name="3V3" x="6.5" y="5.5" dx="3.2" dy="3.2" layer="1" roundness="100"/>
+<smd name="GND" x="64.5" y="28.5" dx="3.2" dy="3.2" layer="1" roundness="100"/>
+<smd name="P$5" x="6.5" y="28.5" dx="2.5" dy="2.5" layer="1" roundness="100"/>
+<smd name="P$6" x="64.5" y="5.5" dx="2.5" dy="2.5" layer="1" roundness="100"/>
+<circle x="20" y="24" radius="10" width="0.127" layer="21"/>
+<circle x="51" y="24" radius="10" width="0.127" layer="21"/>
+<smd name="P$1" x="35.5" y="28.5" dx="2.5" dy="2.5" layer="1" roundness="100"/>
+<text x="5" y="2" size="1.27" layer="51" ratio="15">3v3</text>
+<text x="63" y="25" size="1.27" layer="51" ratio="15">GND</text>
+<smd name="P$2" x="7.6" y="17" dx="2" dy="2" layer="1" roundness="100"/>
 </package>
 </packages>
 <symbols>
-<symbol name="BATTERY-MIDDLE-NO-CONNECTIONS">
-<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.4064" layer="94"/>
-<text x="0" y="4.318" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-4.318" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<symbol name="PERSONAL_ENVIRONMENT_SENSOR_TOP">
+<polygon width="0.254" layer="97">
+<vertex x="0" y="0"/>
+<vertex x="4.6" y="0"/>
+<vertex x="4.6" y="2.4"/>
+<vertex x="0" y="2.4"/>
+</polygon>
+<text x="0.4" y="2.8" size="1.27" layer="97">Top</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CR2032-SPLIT-PCB-MIDDLE">
+<deviceset name="PERSONAL_ENVIRONMENT_SENSOR">
 <gates>
-<gate name="G$1" symbol="BATTERY-MIDDLE-NO-CONNECTIONS" x="0" y="0"/>
+<gate name="G$1" symbol="PERSONAL_ENVIRONMENT_SENSOR_TOP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CR2032-SMD-MIDDLE-OUTLINE">
+<device name="TOP" package="PERSONAL_ENVIRONMENT_SENSOR_TOP">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="BOTTOM" package="PERSONAL_ENVIRONMENT_SENSOR_BOTTOM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MIDDLE" package="PERSONAL_ENVIRONMENT_SENSOR_MIDDLE_KEYRING">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="BOTTOM_TEMPLATE" package="PERSONAL_ENVIRONMENT_SENSOR_BOTTOM_TEMPLATE">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -691,10 +866,9 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
-<part name="U$14" library="ThingySticks" deviceset="CR2032-SPLIT-PCB-MIDDLE" device=""/>
-<part name="U$15" library="ThingySticks" deviceset="CR2032-SPLIT-PCB-MIDDLE" device=""/>
-<part name="J7" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
-<part name="J8" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
+<part name="J2" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
+<part name="U$1" library="ThingySticks" deviceset="PERSONAL_ENVIRONMENT_SENSOR" device="BOTTOM"/>
+<part name="U$2" library="ThingySticks" deviceset="PERSONAL_ENVIRONMENT_SENSOR" device="TOP"/>
 </parts>
 <sheets>
 <sheet>
@@ -704,72 +878,16 @@ regulate to 3v3 or use VIn.</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-96.52" y="-17.78"/>
-<instance part="U$14" gate="G$1" x="134.62" y="38.1" rot="R270"/>
-<instance part="U$15" gate="G$1" x="149.86" y="38.1" rot="R270"/>
-<instance part="J7" gate="G$1" x="114.3" y="86.36"/>
-<instance part="J8" gate="G$1" x="114.3" y="81.28"/>
+<instance part="J2" gate="G$1" x="71.12" y="43.18"/>
+<instance part="U$1" gate="G$1" x="-25.4" y="119.38"/>
+<instance part="U$2" gate="G$1" x="-25.4" y="129.54"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="A0" class="0">
-<segment>
-<wire x1="86.36" y1="43.18" x2="78.74" y2="43.18" width="0.1524" layer="91"/>
-<label x="78.74" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,1,10.16,101.6,U$1,3V3,3.3V,,,"/>
-<approved hash="204,1,10.16,50.8,U$1,VUSB,,,,"/>
-<approved hash="104,1,-50.8,134.62,IC1,VDD,3.3V,,,"/>
-<approved hash="104,1,-50.8,137.16,IC1,VDDIO,3.3V,,,"/>
-<approved hash="104,1,134.62,30.48,U$8,-,GND,,,"/>
-<approved hash="104,1,134.62,48.26,U$10,+,3.3V,,,"/>
-<approved hash="104,1,149.86,48.26,U$13,+,3.3V,,,"/>
-<approved hash="104,1,149.86,30.48,U$9,-,GND,,,"/>
-<approved hash="104,1,165.1,48.26,U$7,+,3.3V,,,"/>
-<approved hash="104,1,177.8,48.26,U$11,+,3.3V,,,"/>
-<approved hash="104,1,271.78,12.7,U$12,+,3.3V,,,"/>
-<approved hash="104,1,256.54,12.7,U$16,+,3.3V,,,"/>
-<approved hash="104,1,238.76,12.7,U$17,+,3.3V,,,"/>
-<approved hash="104,1,223.52,12.7,U$18,+,3.3V,,,"/>
-<approved hash="104,1,208.28,12.7,U$19,+,3.3V,,,"/>
-<approved hash="104,1,193.04,12.7,U$20,+,3.3V,,,"/>
-<approved hash="106,1,-76.2,15.24,D+,,,,,"/>
-<approved hash="106,1,-76.2,12.7,D-,,,,,"/>
-<approved hash="208,1,-5.08,35.56,GND,sup,,,,"/>
-<approved hash="208,1,93.98,45.72,GND,sup,,,,"/>
-<approved hash="208,1,-58.42,124.46,GND,sup,,,,"/>
-<approved hash="208,1,-71.12,127,GND,sup,,,,"/>
-<approved hash="208,1,-81.28,127,GND,sup,,,,"/>
-<approved hash="208,1,-25.4,132.08,GND,out,,,,"/>
-<approved hash="208,1,-7.62,121.92,GND,sup,,,,"/>
-<approved hash="208,1,25.4,132.08,GND,sup,,,,"/>
-<approved hash="208,1,66.04,132.08,GND,sup,,,,"/>
-<approved hash="208,1,160.02,119.38,GND,sup,,,,"/>
-<approved hash="208,1,134.62,27.94,GND,sup,,,,"/>
-<approved hash="208,1,149.86,27.94,GND,sup,,,,"/>
-<approved hash="208,1,93.98,180.34,GND,sup,,,,"/>
-<approved hash="208,1,109.22,180.34,GND,sup,,,,"/>
-<approved hash="208,1,50.8,175.26,GND,sup,,,,"/>
-<approved hash="208,1,129.54,180.34,GND,sup,,,,"/>
-<approved hash="208,1,-71.12,-7.62,GND,sup,,,,"/>
-<approved hash="208,1,-48.26,-7.62,GND,sup,,,,"/>
-<approved hash="208,1,-58.42,-7.62,GND,sup,,,,"/>
-<approved hash="208,1,185.42,182.88,GND,sup,,,,"/>
-<approved hash="106,1,76.2,40.64,RX,,,,,"/>
-<approved hash="106,1,-76.2,5.08,SHIELD,,,,,"/>
-<approved hash="106,1,76.2,35.56,TX,,,,,"/>
-<approved hash="113,1,101.6,185.983,U$2,,,,,"/>
-<approved hash="113,1,116.84,185.983,U$3,,,,,"/>
-<approved hash="113,1,104.817,100.262,J3,,,,,"/>
-<approved hash="113,1,137.16,185.983,U$6,,,,,"/>
-<approved hash="113,1,-80.2971,11.4088,J5,,,,,"/>
-<approved hash="113,1,29.8027,186.758,J2,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>

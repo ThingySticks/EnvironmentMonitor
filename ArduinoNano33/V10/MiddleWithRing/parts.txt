@@ -1,6 +1,6 @@
 Partlist
 
-Exported from Environment-ArduinoNano44-Mini-Enclosure-V10-Middle-KeyChain.brd at 26/02/2020 16:32
+Exported from Environment-ArduinoNano-V10.1-Middle-KeyChain.brd at 27/02/2020 23:31
 
 EAGLE Version 7.4.0 Copyright (c) 1988-2015 CadSoft
 
@@ -8,7 +8,5 @@ Assembly variant:
 
 Part     Value                               Package                      Library             Position (mm)         Orientation
 
-J2                                           1X01                         SparkFun-Connectors (7.6 128)             R0
-J9                                           1X01                         SparkFun-Connectors (34.1 130.8)          R0
-J10                                          1X01                         SparkFun-Connectors (36.9 130.8)          R0
-TOGGLE1  MOMENTARY-SWITCH-SPST-SMD-6.0X3.5MM TACTILE_SWITCH_SMD_6.0X3.5MM ThingySticks        (74.5 128)            R90
+J2                                           1X01                         SparkFun-Connectors (7.6 17)              R0
+TOGGLE1  MOMENTARY-SWITCH-SPST-SMD-6.0X3.5MM TACTILE_SWITCH_SMD_6.0X3.5MM ThingySticks        (74.5 17)             R90

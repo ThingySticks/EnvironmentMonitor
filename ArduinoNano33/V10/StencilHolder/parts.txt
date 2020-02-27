@@ -1,0 +1,10 @@
+Partlist
+
+Exported from Environment-ArduinoNano33-V10-StencilHolder.brd at 27/02/2020 23:18
+
+EAGLE Version 7.4.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package  Library  Position (mm)         Orientation
+

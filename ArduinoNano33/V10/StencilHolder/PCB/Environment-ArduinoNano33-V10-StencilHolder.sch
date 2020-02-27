@@ -161,106 +161,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="ThingySticks">
-<packages>
-<package name="CR2032-SMD-POSITIVE-TERMINAL">
-<smd name="+" x="0" y="0" dx="4" dy="4" layer="16" roundness="100" rot="R180" stop="no" cream="no"/>
-<text x="1.744" y="-12.298" size="1.016" layer="26" font="vector" ratio="15" rot="MR0">&gt;NAME</text>
-<text x="1.782" y="-13.75" size="1.016" layer="28" font="vector" ratio="15" rot="MR0">&gt;VALUE</text>
-<circle x="0" y="0" radius="10.1" width="0.254" layer="22"/>
-<polygon width="0.127" layer="40">
-<vertex x="-10.2" y="0.1"/>
-<vertex x="-10.2" y="10.3"/>
-<vertex x="10.2" y="10.3"/>
-<vertex x="10.2" y="0"/>
-<vertex x="10.2" y="-0.2" curve="-90"/>
-<vertex x="0" y="-10.4" curve="-91.660638"/>
-</polygon>
-<polygon width="0.127" layer="42">
-<vertex x="-10.2" y="10.3"/>
-<vertex x="10.2" y="10.3"/>
-<vertex x="10.2" y="0"/>
-<vertex x="10.2" y="-0.2" curve="-90"/>
-<vertex x="0" y="-10.4" curve="-91.112511"/>
-<vertex x="-10.2" y="0" curve="2.224988"/>
-</polygon>
-<text x="4.5" y="10.9" size="1.27" layer="28" ratio="15" rot="MR0">Battery +VE</text>
-<circle x="0" y="0" radius="10" width="0" layer="30"/>
-<wire x1="-10.1" y1="0" x2="-10.1" y2="10.2" width="0.127" layer="22"/>
-<wire x1="-10.1" y1="10.2" x2="10.1" y2="10.2" width="0.127" layer="22"/>
-<wire x1="10.1" y1="10.2" x2="10.1" y2="0" width="0.127" layer="22"/>
-</package>
-</packages>
-<symbols>
-<symbol name="BATTERY-POSITIVE-ONLY">
-<wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="94"/>
-<text x="0" y="4.318" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-4.318" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
-<pin name="+" x="-5.08" y="0" visible="off" length="short" direction="pwr"/>
-<text x="-2.54" y="2.54" size="1.27" layer="97" ratio="15">+</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CR2032-SPLIT-PCB-POSITIVE">
-<gates>
-<gate name="G$1" symbol="BATTERY-POSITIVE-ONLY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CR2032-SMD-POSITIVE-TERMINAL">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="SparkFun-PowerSymbols">
-<description>&lt;h3&gt;SparkFun Power Symbols&lt;/h3&gt;
-This library contains power, ground, and voltage-supply symbols.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="3.3V">
-<description>&lt;h3&gt;3.3V Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="3.3V" prefix="SUPPLY">
-<description>&lt;h3&gt;3.3V Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Power supply symbol for a specifically-stated 3.3V source.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="3.3V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Aesthetics&lt;/h3&gt;
 This library contiains non-functional items such as logos, build/ordering notes, frame blocks, etc. 
@@ -4380,84 +4280,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
-<part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="L"/>
-<part name="U$7" library="ThingySticks" deviceset="CR2032-SPLIT-PCB-POSITIVE" device=""/>
-<part name="U$11" library="ThingySticks" deviceset="CR2032-SPLIT-PCB-POSITIVE" device=""/>
-<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="LOGO7" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
-<part name="U$12" library="ThingySticks" deviceset="CR2032-SPLIT-PCB-POSITIVE" device=""/>
-<part name="U$16" library="ThingySticks" deviceset="CR2032-SPLIT-PCB-POSITIVE" device=""/>
-<part name="U$17" library="ThingySticks" deviceset="CR2032-SPLIT-PCB-POSITIVE" device=""/>
-<part name="U$18" library="ThingySticks" deviceset="CR2032-SPLIT-PCB-POSITIVE" device=""/>
-<part name="U$19" library="ThingySticks" deviceset="CR2032-SPLIT-PCB-POSITIVE" device=""/>
-<part name="U$20" library="ThingySticks" deviceset="CR2032-SPLIT-PCB-POSITIVE" device=""/>
-<part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="L"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="104.14" y="15.24" size="1.27" layer="97">For 3v Battery, go directly to 3v3 pin.
-Break 3v3 jumper on bottom of Arduino for low power operation.</text>
-<text x="86.36" y="7.62" size="1.27" layer="97">If putting the batteries in series (i.e. to use blue LEDs / or for a high voltage), 
-regulate to 3v3 or use VIn.</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-96.52" y="-17.78"/>
-<instance part="LOGO2" gate="G$1" x="40.64" y="-5.08"/>
-<instance part="U$7" gate="G$1" x="15.24" y="127" rot="R270"/>
-<instance part="U$11" gate="G$1" x="27.94" y="127" rot="R270"/>
-<instance part="SUPPLY2" gate="G$1" x="20.32" y="144.78"/>
-<instance part="LOGO7" gate="G$1" x="66.04" y="-33.02"/>
-<instance part="U$12" gate="G$1" x="-2.54" y="127" rot="R270"/>
-<instance part="U$16" gate="G$1" x="-17.78" y="127" rot="R270"/>
-<instance part="U$17" gate="G$1" x="-35.56" y="127" rot="R270"/>
-<instance part="U$18" gate="G$1" x="-50.8" y="127" rot="R270"/>
-<instance part="U$19" gate="G$1" x="-66.04" y="127" rot="R270"/>
-<instance part="U$20" gate="G$1" x="-81.28" y="127" rot="R270"/>
-<instance part="SUPPLY14" gate="G$1" x="-2.54" y="147.32"/>
+<instance part="LOGO3" gate="G$1" x="15.24" y="-5.08"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="3.3V" class="0">
-<segment>
-<pinref part="U$7" gate="G$1" pin="+"/>
-<wire x1="15.24" y1="132.08" x2="15.24" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="+"/>
-<wire x1="15.24" y1="142.24" x2="20.32" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="142.24" x2="27.94" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="142.24" x2="27.94" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="142.24" x2="20.32" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
-<junction x="20.32" y="142.24"/>
-</segment>
-<segment>
-<pinref part="U$20" gate="G$1" pin="+"/>
-<wire x1="-81.28" y1="132.08" x2="-81.28" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="U$12" gate="G$1" pin="+"/>
-<wire x1="-81.28" y1="144.78" x2="-66.04" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="144.78" x2="-50.8" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="144.78" x2="-35.56" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="144.78" x2="-17.78" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="144.78" x2="-2.54" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="144.78" x2="-2.54" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="144.78" x2="-2.54" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="SUPPLY14" gate="G$1" pin="3.3V"/>
-<junction x="-2.54" y="144.78"/>
-<pinref part="U$19" gate="G$1" pin="+"/>
-<wire x1="-66.04" y1="132.08" x2="-66.04" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="U$18" gate="G$1" pin="+"/>
-<wire x1="-50.8" y1="132.08" x2="-50.8" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="+"/>
-<wire x1="-35.56" y1="132.08" x2="-35.56" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="U$16" gate="G$1" pin="+"/>
-<wire x1="-17.78" y1="132.08" x2="-17.78" y2="144.78" width="0.1524" layer="91"/>
-<junction x="-66.04" y="144.78"/>
-<junction x="-50.8" y="144.78"/>
-<junction x="-35.56" y="144.78"/>
-<junction x="-17.78" y="144.78"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
@@ -4512,10 +4347,4 @@ regulate to 3v3 or use VIn.</text>
 </errors>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
