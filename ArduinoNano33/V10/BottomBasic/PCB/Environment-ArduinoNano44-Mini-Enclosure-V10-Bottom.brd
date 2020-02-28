@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -66,8 +67,8 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -160,6 +161,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
+<fusionsync huburn="a.YnVzaW5lc3M6YW5hbHlzaXN1aw" projecturn="a.YnVzaW5lc3M6YW5hbHlzaXN1ayMyMDIwMDIyNzI2OTg4MTUyNg" f3durn="urn:adsk.wipprod:dm.lineage:oLJh4cmXSWaZDWiBCOGmwA" pcbguid="2f21d1d4-959d-4dc2-bfa4-14db0806cdf6" lastpulledtime="" lastsyncedchangeguid="562563f2-f68b-7873-ced0-500f2dd488f8"/>
 <plain>
 <text x="45.79" y="47.22" size="1.778" layer="26" ratio="15" rot="MR180">ThingySticks.Com</text>
 <wire x1="3" y1="37" x2="27" y2="37" width="0" layer="20"/>
@@ -431,10 +433,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="0"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -541,9 +547,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$13" library="ThingySticks" package="CR2032-SMD-POSITIVE-TERMINAL" value="CR2032-SPLIT-PCB-POSITIVE" x="51" y="61" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="49.256" y="48.702" size="1.016" layer="25" font="vector" ratio="15"/>
 </element>
-<element name="U$2" library="ThingySticks" package="CR2032-SMD" value="" x="20" y="59" rot="MR0"/>
-<element name="U$3" library="ThingySticks" package="CR2032-SMD" value="" x="51" y="59" rot="MR0"/>
-<element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="47" y="40.5" rot="MR0"/>
+<element name="U$2" library="ThingySticks" package="CR2032-SMD" value="" x="20" y="59" smashed="yes" rot="MR0">
+<attribute name="NAME" x="23.556" y="69.302" size="1.6764" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="24.318" y="46.65" size="1.6764" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="U$3" library="ThingySticks" package="CR2032-SMD" value="" x="51" y="59" smashed="yes" rot="MR0">
+<attribute name="NAME" x="54.556" y="69.302" size="1.6764" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="55.318" y="46.65" size="1.6764" layer="28" font="vector" rot="MR0"/>
+</element>
+<element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="47" y="40.5" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -622,6 +634,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="4.5" y1="40.5" x2="6.5" y2="42.5" width="0.3048" layer="1"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 <errors>
 <approved hash="7,39,af6706c09111fa79"/>
 <approved hash="7,39,2ec7dae40c71ddee"/>
@@ -815,6 +834,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 </compatibility>
 </eagle>
